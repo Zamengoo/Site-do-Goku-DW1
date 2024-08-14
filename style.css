@@ -1,34 +1,38 @@
 
 h1 {
-    color:rgb(251, 251, 251);
-    position: absolute;
-    top: 20px;
-    left: 577px;
+    color:rgb(255, 255, 255)
 }
-body{
-    background-color:rgb(61, 70, 78)
-}
-p {
-    color:rgb(255, 255, 255);
-    text-align: justify;
-    padding: 1% 2%;
-}
-.container {
-    position:relative;
-}
-.topper {
-    position:absolute;
-    top:99px;
-    left:530px;
+
+.imagens {
     width: 300px;
     height:300px;
-    border:5px red;
 }
-.cu {
-    color:rgb(247, 67, 67);
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-weight:700;
-    position: absolute;
-    top: 400px;
-    left: 515px;
+body{
+    background-color: rgb(54, 59, 66);
+}
+p {
+    color:rgb(255, 0, 0);
+    text-align: justify;
+    padding: 1% 2%;
+    font-family:sans-serif
+}
+p.bold{
+    font-weight:bold;
+    font-size:50px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.container {
+    position: relative;
+  }
+div.fixed {
+    position:fixed;
+    bottom: 0;
+    right: 0;
 }
