@@ -15,6 +15,18 @@ p {
     text-align: justify;
     padding: 1% 2%;
 }
+.lula {
+    color:rgb(247, 67, 67);
+    text-decoration:none;
+}
+.bolso {
+    color:rgb(182, 248, 0);
+    text-decoration:none;
+}
+.cilio {
+    color:rgb(20, 185, 20);
+    text-decoration:none;
+}
 .topper {
     position:relative;
     top:99px;
