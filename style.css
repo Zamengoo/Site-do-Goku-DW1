@@ -7,7 +7,7 @@ h1 {
     text-align:justify;
 }
 body{
-    background-color:rgb(61, 70, 78)
+    background-color:rgb(61, 70, 78);
 }
 p {
     color:rgb(255, 255, 255);
@@ -34,6 +34,7 @@ p {
     height:300px;
     border:solid 7px rgb(247, 67, 67);
     border-radius:10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
 }
 .cu {
     color:rgb(247, 67, 67);
@@ -51,6 +52,7 @@ p {
     height:300px;
     border:solid 7px rgb(182, 248, 0);
     border-radius:10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
 }
 .cuz {
     position:absolute;
@@ -68,6 +70,7 @@ p {
     height:300px;
     border:solid 7px rgb(20, 185, 20);
     border-radius:10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
 }
 .cus {
     position:absolute;
