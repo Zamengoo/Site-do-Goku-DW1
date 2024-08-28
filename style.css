@@ -1,82 +1,82 @@
 h1 {
     color:rgb(251, 251, 251);
-    position: absolute;
-    top: 20px;
-    left: 575px;
-    font-family:sans-serif;
-    text-align:justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
 }
 body{
     background-color:rgb(61, 70, 78);
 }
-p {
-    color:rgb(255, 255, 255);
-    text-align: justify;
-    padding: 1% 2%;
+footer {
+    display:flex;
+    flex-direction:column;
 }
-.lula {
+.textop {
+    color:rgb(255, 255, 255);
+    font-family: 'Comic Sans MS', sans-serif;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+}
+.imagem {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items:center;
+}
+.textoi {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#lula {
     color:rgb(247, 67, 67);
     text-decoration:none;
 }
-.bolso {
+#bolso {
     color:rgb(182, 248, 0);
     text-decoration:none;
 }
-.cilio {
+#cilio {
     color:rgb(20, 185, 20);
     text-decoration:none;
 }
+#lula1 {
+    color:rgb(247, 67, 67);
+    text-decoration:none;
+    display:flex;
+    margin: 0px 7px 0px 7px;
+}
+#bolso1 {
+    color:rgb(182, 248, 0);
+    text-decoration:none;
+    display:flex;
+    margin: 0px 7px 0px 7px;
+}
+#cilio1 {
+    color:rgb(20, 185, 20);
+    text-decoration:none;
+    display:flex;
+    margin: 0px 7px 0px 7px;
+}
 .topper {
-    position:relative;
-    top:99px;
-    left:525px;
     width: 300px;
     height:300px;
-    border:solid 7px rgb(247, 67, 67);
+    border:solid 7px;
     border-radius:10px;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
+    display:flex;
+    flex-direction:column;
 }
-.cu {
+#cu {
     color:rgb(247, 67, 67);
-    font-family: 'Comic Sans MS', sans-serif;
     font-weight:700;
-    position: absolute;
-    top: 400px;
-    left: 575px;
 }
-.zopper {
-    position:relative;
-    top:99px;
-    right:207px;
-    width:300px;
-    height:300px;
-    border:solid 7px rgb(182, 248, 0);
-    border-radius:10px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
-}
-.cuz {
-    position:absolute;
-    font-family: 'Comic Sans MS', sans serif;
+#cuz {
     font-weight:700;
-    top:400px;
-    left:117px;
     color:rgb(182, 248, 0);
 }
-.copper {
-    position:relative;
-    top:99px;
-    left:300px;
-    width:300px;
-    height:300px;
-    border:solid 7px rgb(20, 185, 20);
-    border-radius:10px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
-}
-.cus {
-    position:absolute;
-    font-family: 'Comic Sans MS', sans serif;
+#cus {
     font-weight:700;
-    top:400px;
-    left:964px;
-    color:rgb(20, 185, 20)
+    color:rgb(20, 185, 20);
 }
