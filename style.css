@@ -10,6 +10,9 @@ footer {
     display:flex;
     flex-direction:column;
 }
+a {
+    margin: 0px 5px 0px 5px;
+}
 .textop {
     color:rgb(255, 255, 255);
     font-family: 'Comic Sans MS', sans-serif;
@@ -46,19 +49,16 @@ footer {
     color:rgb(247, 67, 67);
     text-decoration:none;
     display:flex;
-    margin: 0px 7px 0px 7px;
 }
 #bolso1 {
     color:rgb(182, 248, 0);
     text-decoration:none;
     display:flex;
-    margin: 0px 7px 0px 7px;
 }
 #cilio1 {
     color:rgb(20, 185, 20);
     text-decoration:none;
     display:flex;
-    margin: 0px 7px 0px 7px;
 }
 .topper {
     width: 300px;
