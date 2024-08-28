@@ -23,6 +23,7 @@ footer {
     justify-content: space-around;
     width: 100%;
     align-items:center;
+    flex-wrap: wrap;
 }
 .textoi {
     display:flex;
