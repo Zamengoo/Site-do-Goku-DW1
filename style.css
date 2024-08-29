@@ -1,14 +1,11 @@
 h1 {
     color:rgb(251, 251, 251);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align:center;
+    margin: 30px;
 }
 body{
     background-color:rgb(61, 70, 78);
-}
-footer {
-    display:flex;
-    flex-direction:column;
 }
 a {
     margin: 0px 5px 0px 5px;
