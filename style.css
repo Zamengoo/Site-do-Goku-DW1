@@ -2,13 +2,19 @@ h1 {
     color:rgb(251, 251, 251);
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align:center;
-    margin: 30px;
+    margin: 15px;
 }
 body{
     background-color:rgb(61, 70, 78);
 }
 a {
     margin: 0px 5px 0px 5px;
+}
+button:hover {
+    color:white;
+    transition-duration:0.8s;
+    background-color: rgb(89, 90, 86);
+    font-family:'Papyrus';
 }
 .textop {
     color:rgb(255, 255, 255);
@@ -77,4 +83,31 @@ a {
 #cus {
     font-weight:700;
     color:rgb(20, 185, 20);
+}
+#escolha {
+    color:rgb(230, 214, 226);
+    font-weight:1000;
+    font-family:Courier, verdana, monospace;
+    font-style: oblique;
+    padding-top: 30px;
+}
+.lula2 {
+    background-color:rgb(247, 67, 67);
+    border:none;
+    font-size: 30px;
+    font-family:'Papyrus';
+    justify-content:flex start;
+}
+.bolo2 {
+    background-color: rgb(182, 248, 0);
+    border:none;
+    font-size: 30px;
+    font-family:'Papyrus';
+}
+.ciro2 {
+    border:none;
+    font-size: 30px;
+    background-color: rgb(20, 185, 20);
+    font-family:'Papyrus';
+    display:flex;
 }
