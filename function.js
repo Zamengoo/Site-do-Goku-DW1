@@ -18,6 +18,7 @@ function haddadC() {
     document.getElementById("cus").style.color = 'rgb(0, 0, 0)';
     document.getElementById("cuz").style.color = 'rgb(0, 0, 0)';
     document.getElementById("title").style.color = 'rgb(0, 0, 0)';
+    document.querySelector(".lula2").style.backgroundColor = 'rgb(247, 67, 67)';
     document.querySelector(".ciro2").style.backgroundColor = 'rgb(247, 67, 67)';
     document.querySelector(".bolo2").style.backgroundColor = 'rgb(247, 67, 67)';
     document.getElementById("cu").style.backgroundColor = 'red';
