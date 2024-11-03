@@ -7,7 +7,7 @@ function bolsonaro() {
 }
 
 function petista() {
-    alert("Lula lá, Seila Quem Aqui!");
+    alert("Lula lá, Seila quem Aqui!");
 }
 
 function haddadC() {
