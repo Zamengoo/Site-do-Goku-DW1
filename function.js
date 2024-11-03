@@ -10,6 +10,9 @@ function petista() {
     alert("Lula la, seila quem aqui!");
 }
 
+function taxa() {
+    alert('Taxação Concluída.')
+}
 function haddadC() {
     document.getElementById("bolso").style.color = 'rgb(163, 25, 15)';
     document.getElementById("lula").style.color = 'rgb(163, 25, 15)';
@@ -18,9 +21,6 @@ function haddadC() {
     document.getElementById("cus").style.color = 'rgb(0, 0, 0)';
     document.getElementById("cuz").style.color = 'rgb(0, 0, 0)';
     document.getElementById("title").style.color = 'rgb(0, 0, 0)';
-    document.querySelector(".lula2").style.backgroundColor = 'rgb(247, 67, 67)';
-    document.querySelector(".ciro2").style.backgroundColor = 'rgb(247, 67, 67)';
-    document.querySelector(".bolo2").style.backgroundColor = 'rgb(247, 67, 67)';
     document.getElementById("cu").style.backgroundColor = 'red';
     document.getElementById("cus").style.backgroundColor = 'red';
     document.getElementById("cuz").style.backgroundColor = 'red';
@@ -29,8 +29,8 @@ function haddadC() {
 }
 
 function haddadi() {
-    document.body.style.backgroundImage += "url('img/EstrelaPT.jpg')";
-    document.body.style.backgroundSize += '50%';
+    document.body.style.backgroundImage = "url('img/EstrelaPT.jpg')";
+    document.body.style.backgroundSize = '50%';
     document.getElementById("lula").src = "img/Taxad.jpg";
     document.getElementById("bolso").src = "img/Taxad.jpg";
     document.getElementById("cilio").src = "img/Taxad.jpg";
@@ -41,11 +41,8 @@ function haddadT() {
     document.getElementById("cu").textContent = "A TAXA É REAL";
     document.getElementById("cus").textContent = "A TAXA É REAL";
     document.getElementById("cuz").textContent = "A TAXA É REAL";
-    document.getElementById("botaoL").textContent = "Taxar";
-    document.getElementById("botaoC").textContent = "Taxar";
-    document.getElementById("botaoB").textContent = "Taxar";
+    document.getElementById("botaoL").innerHTML = '<button onclick="taxa()" " style="background-color: rgb(247, 67, 67); border:none; font-size:30px; font-family:Comic-Sans-MS;">Taxar</button>';
+    document.getElementById("botaoC").innerHTML = '<button onclick="taxa()" " style="background-color: rgb(247, 67, 67); border:none; font-size:30px; font-family:Comic-Sans-MS;">Taxar</button>';
+    document.getElementById("botaoB").innerHTML = '<button onclick="taxa()" " style="background-color: rgb(247, 67, 67); border:none; font-size:30px; font-family:Comic-Sans-MS;">Taxar</button>';
     document.getElementById("escolha").innerHTML = '';
-    document.querySelector(".lula2").style.marginLeft = '20px';
-    document.querySelector(".ciro2").style.marginLeft = '20px';
-    document.querySelector(".bolo2").style.marginLeft = '30px';
 }
