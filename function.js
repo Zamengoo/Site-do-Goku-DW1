@@ -10,9 +10,6 @@ function petista() {
     alert("Lula la, seila quem aqui!");
 }
 
-function taxa() {
-    alert('Taxação Concluída.')
-}
 function haddadC() {
     document.getElementById("bolso").style.color = 'rgb(163, 25, 15)';
     document.getElementById("lula").style.color = 'rgb(163, 25, 15)';
@@ -45,4 +42,24 @@ function haddadT() {
     document.getElementById("botaoC").innerHTML = '<button onclick="taxa()" " style="background-color: rgb(247, 67, 67); border:none; font-size:30px; font-family:Comic-Sans-MS;">Taxar</button>';
     document.getElementById("botaoB").innerHTML = '<button onclick="taxa()" " style="background-color: rgb(247, 67, 67); border:none; font-size:30px; font-family:Comic-Sans-MS;">Taxar</button>';
     document.getElementById("escolha").innerHTML = '';
+}
+
+let a = 1
+
+function taxa() {
+    if(a == 1) {
+        alert('Taxas em 50%.')
+        a += 1
+    } else if(a == 2) {
+        alert('Taxas em 75%.')
+        a += 1
+    } else if (a == 3) {
+        alert('Taxas em 99%.')
+        a += 1
+    } else if (a == 4) {
+        alert('Taxas em 100%, Projeto Brazuela Iniciado.')
+        a += 1
+    } else {
+        alert('Suas mãos não Aguentam mais Taxar.')
+    }
 }
