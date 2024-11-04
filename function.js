@@ -26,7 +26,7 @@ function haddadC() {
 }
 
 function haddadi() {
-    document.body.style.backgroundImage = "url('img/EstrelaPT.jpg')";
+    document.body.style.backgroundImage = "url('img/EstrelaPT.png')";
     document.body.style.backgroundSize = '50%';
     document.getElementById("lula").src = "img/Taxad.jpg";
     document.getElementById("bolso").src = "img/Taxad.jpg";
