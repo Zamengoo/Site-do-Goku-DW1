@@ -14,10 +14,10 @@ function haddadC() {
     document.getElementById("bolso").style.color = 'rgb(163, 25, 15)';
     document.getElementById("lula").style.color = 'rgb(163, 25, 15)';
     document.getElementById("cilio").style.color = 'rgb(163, 25, 15)';
-    document.getElementById("cu").style.color = 'rgb(0, 0, 0)';
-    document.getElementById("cus").style.color = 'rgb(0, 0, 0)';
-    document.getElementById("cuz").style.color = 'rgb(0, 0, 0)';
-    document.getElementById("title").style.color = 'rgb(0, 0, 0)';
+    document.getElementById("cu").style.color = 'black';
+    document.getElementById("cus").style.color = 'black';
+    document.getElementById("cuz").style.color = 'black';
+    document.getElementById("title").style.color = 'black';
     document.getElementById("cu").style.backgroundColor = 'red';
     document.getElementById("cus").style.backgroundColor = 'red';
     document.getElementById("cuz").style.backgroundColor = 'red';
