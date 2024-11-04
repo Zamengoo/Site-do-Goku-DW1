@@ -31,6 +31,7 @@ function haddadi() {
     document.getElementById("lula").src = "img/Taxad.jpg";
     document.getElementById("bolso").src = "img/Taxad.jpg";
     document.getElementById("cilio").src = "img/Taxad.jpg";
+    document.querySelector('link[rel="icon"]').href = "img/PT-icon.jpg";
 }
 
 function haddadT() {
@@ -42,6 +43,7 @@ function haddadT() {
     document.getElementById("botaoC").innerHTML = '<button onclick="taxa()" " style="background-color: rgb(247, 67, 67); border:none; font-size:30px; font-family:Comic-Sans-MS;">Taxar</button>';
     document.getElementById("botaoB").innerHTML = '<button onclick="taxa()" " style="background-color: rgb(247, 67, 67); border:none; font-size:30px; font-family:Comic-Sans-MS;">Taxar</button>';
     document.getElementById("escolha").innerHTML = '';
+    document.title = 'TAXADO';
 }
 
 let a = 1
