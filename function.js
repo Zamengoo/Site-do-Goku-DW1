@@ -26,12 +26,12 @@ function haddadC() {
 }
 
 function haddadi() {
-    document.body.style.backgroundImage = "url('img/EstrelaPT.png')";
+    document.body.style.backgroundImage = "url('img/EstrelaPT.jpg')";
     document.body.style.backgroundSize = '50%';
     document.getElementById("lula").src = "img/Taxad.jpg";
     document.getElementById("bolso").src = "img/Taxad.jpg";
     document.getElementById("cilio").src = "img/Taxad.jpg";
-    document.querySelector('link[rel="icon"]').href = "img/PT-icon.jpg";
+    document.querySelector('link[rel="icon"]').href = "img/PT-icon.png";
 }
 
 function haddadT() {
