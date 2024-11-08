@@ -102,19 +102,21 @@ function bolsoT() {
     document.title = 'TAXADO';
 }
 
+let b = 1
+
 function destaxa() {
-    if(a == 1) {
+    if(b == 1) {
         alert('Taxas Reduzidas para 50%.')
-        a += 1
-    } else if(a == 2) {
+        b += 1
+    } else if(b == 2) {
         alert('Taxas Reduzidas para 25%.')
-        a += 1
-    } else if (a == 3) {
+        b += 1
+    } else if (b == 3) {
         alert('Taxas Reduzidas para 10%.')
-        a += 1
-    } else if (a == 4) {
+        b += 1
+    } else if (b == 4) {
         alert('Taxas Reduzidas para 0%, Projeto Brazuela Derrubado.')
-        a += 1
+        b += 1
     } else {
         alert('Não Existem Taxas para Reduzir.')
     }
