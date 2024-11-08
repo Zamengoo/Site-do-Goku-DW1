@@ -71,7 +71,7 @@ function bolsoC() {
     document.getElementById('lula').style.color = 'rgb(36, 105, 2)';
     document.getElementById('cilio').style.color = 'rgb(36, 105, 2)';
     document.getElementById('cu').style.color = 'black';
-    document.getElementById('cus').style.color = 'black';
+    document.getElementById('cus').style.color = 'white';
     document.getElementById('cuz').style.color = 'black';
     document.getElementById('title').style.color = 'white';
     document.getElementById('cu').style.backgroundColor = 'darkgreen';
