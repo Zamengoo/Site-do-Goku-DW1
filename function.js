@@ -30,7 +30,9 @@ function haddadi() {
     document.body.style.backgroundSize = '50%';
     document.getElementById('lula').src = 'img/Taxad.jpg';
     document.getElementById('bolso').src = 'img/Taxad.jpg';
-    document.getElementById('bolso').onclick ='';
+    document.getElementById('lula').onclick ='';
+    document.getElementById('bolso').onclick = '';
+    document.getElementById('cilio').onclick = '';
     document.getElementById('cilio').src = 'img/Taxad.jpg';
     document.querySelector('link[rel="icon"]').href = 'img/PT-icon.png';
 }
@@ -85,6 +87,8 @@ function bolsoi() {
     document.body.style.backgroundSize = '100%';
     document.getElementById('lula').src = 'img/bosonaro.jpg';
     document.getElementById('lula').onclick ='';
+    document.getElementById('bolso').onclick = '';
+    document.getElementById('cilio').onclick = '';
     document.getElementById('cilio').src = 'img/canalhas.jpg';
     document.getElementById('bolso').src = 'img/luffy.jpg';
     document.querySelector('link[rel="icon"]').href = 'img/22.png';

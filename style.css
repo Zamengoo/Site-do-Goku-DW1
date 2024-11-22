@@ -14,7 +14,6 @@ a {
 button:hover {
     color:white;
     transition-duration:0.8s;
-    background-color: rgb(76, 147, 205);
 }
 /*
 =======================================
@@ -112,7 +111,7 @@ button:hover {
 =======================================
     Estilização dos Botões
 =======================================
-                        */
+*/
 .lula2 {
     background-color:rgb(247, 67, 67);
     border:none;
@@ -138,4 +137,8 @@ button:hover {
 .choose {
     display:flex;
     justify-content: space-around;
+}
+.bololo:hover {
+    color:black;
+    transition-duration:0.8s;
 }
